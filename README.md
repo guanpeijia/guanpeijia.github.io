@@ -1,2 +1,1 @@
-# guanpeijia.github.io
-GithubPages
+基于Github+Jekyll 搭建的个人网站

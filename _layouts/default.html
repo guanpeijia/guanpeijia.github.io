@@ -1,22 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: compress
+---
+<!doctype html>
+<html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
+<head>
+	{% include _head.html %}
+</head>
+<body id="top-of-page" class="{{ layout.format }}">
+	{% unless page.skip_boilerplate %}
+	{% include _navigation.html %}
+	{% endunless %}
 
-{% include head.html %}
+	{% include _masthead.html %}
+	{{ content }}
 
-<!-- hack iOS CSS :active style -->
-<body ontouchstart="">
+	{% unless page.skip_boilerplate %}
+	{% include _footer.html %}
+	{% endunless %}
 
-    {% include nav.html %}
-
-    {{ content }}
-
-    {% include footer.html %}
-
-
-<!-- Image to hack wechat -->
-<img src="/img/apple-touch-icon.png" width="0" height="0" />
-<!-- Migrate from head to bottom, no longer block render and still work -->
-
+	{% include _footer_scripts.html %}
 </body>
-
 </html>

@@ -1,0 +1,22 @@
+- title: 首页
+  url: "/"
+  side: left
+
+- title: 博客
+  url: "/blog/"
+  side: left
+  dropdown:
+    - title: "全部文章"
+      url: "/blog/archive/"
+
+- title: 关于我
+  url: "/getting-started/"
+  side: left
+
+- title: "搜索"
+  url: "/search/"
+  side: right
+
+- title: "联系我"
+  url: "/contact/"
+  side: right
