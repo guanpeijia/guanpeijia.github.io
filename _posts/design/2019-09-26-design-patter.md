@@ -581,7 +581,7 @@ public final class $Proxy0 extends Proxy implements CustomerDao {
 
 CGLIB(Code Generation Library)是一个[开源项目](https://github.com/cglib/cglib)！是一个强大的，高性能，高质量的Code生成类库，它可以在运行期扩展Java类与实现Java接口。它广泛的被许多AOP的框架使用，例如Spring AOP和dynaop。CGLIB包的底层是通过使用一个小而快的[字节码](https://baike.baidu.com/item/字节码)处理框架ASM，来转换字节码并生成新的类。
 
-![image](https://guanpeijia.github.io/images/blog/design/proxy/jnbNov2005-1.PNG)
+![image](https://guanpeijia.github.io/images/blog/design/proxy/jnbNov2005-1.png)
 
 ##### CGLIB动态代理实例
 
