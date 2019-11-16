@@ -2,7 +2,7 @@
 layout: page
 subheadline: 任务调度-Quartz
 title:  "Quartz学习笔记1-什么是Quartz"
-teaser: "什么是Quartz？Quartz有什么优点？为什么要用Quartz"
+teaser: "什么是Quartz？Quartz有什么优点？为什么要用Quartz？"
 meta_teaser: "This is an example of a beautiful aligned post in the middle. There is no sidebar to distract the reader. The difference to the Page-Template is, that you find meta-information at the bottom of the post."
 breadcrumb: true
 categories:
