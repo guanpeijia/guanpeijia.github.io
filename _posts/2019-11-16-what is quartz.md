@@ -1,3 +1,23 @@
+---
+layout: page
+subheadline: 任务调度-Quartz
+title:  "Quartz学习笔记1-什么是Quartz"
+teaser: "什么是Quartz？Quartz有什么优点？为什么要用Quartz"
+meta_teaser: "This is an example of a beautiful aligned post in the middle. There is no sidebar to distract the reader. The difference to the Page-Template is, that you find meta-information at the bottom of the post."
+breadcrumb: true
+categories:
+    - design
+tags:
+    - blog
+    - content
+    - post
+    - post format
+image:
+    title: gallery-example-1.jpg
+    # caption: Unsplash.com
+    # caption_url: <http://unsplash.com>
+author: mo
+---
 ## 什么是Quartz？
 
  Quartz是功能强大的开源作业调度库，几乎可以集成到任何Java应用程序中-从最小的独立应用程序到最大的电子商务系统。Quartz可用于创建简单或复杂的计划，以执行数以万计，数以万计的工作。任务定义为标准Java组件的作业，它们实际上可以执行您可以对其执行的任何编程操作。Quartz Scheduler包含许多企业级功能，例如对JTA事务和集群的支持。 
